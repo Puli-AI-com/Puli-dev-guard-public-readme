@@ -1,40 +1,49 @@
-# Puli Reviewer MCP
 
-**Puli Reviewer** is a proactive security and stability guardrail for your AI coding agents (Claude Code, Cursor, Antigravity, etc.). It prevents production breakages by confronting proposed code changes with a massive, real-time database of global incidents, edge cases, and security breaches. 
+# 🛡️ The Puli Guardian MCP
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🚀 How it Works</h3>
-      <p>
-When your coding agent attempts to modify your codebase, Puli Reviewer:
+<img align="right" width="350" height="600" 
+  src="https://github.com/user-attachments/assets/e0d31d86-2d8a-41d3-a1ff-7a47abb87b3a">
 
-1.  **Analyzes the Context:**
+### Puli Reviewer
+is a proactive security and stability guardrail for your 
+AI coding agents (Claude Code, Cursor, Antigravity, etc.). 
+It prevents production breakages by confronting proposed 
+code changes with a massive, real-time database of global 
+incidents, edge cases, and security breaches.
 
-Queries the agent to understand the intent of the change.
+**Stop production errors before they happen.**
 
-2.  **Cross-References Failures:**
+Puli acts as a real-time bridge between your local development and global production insights. It doesn't just check syntax—it checks reality.
+* **Real-time Intelligence:** Connects to a live DB of global incidents.
+* **Agent Native:** Built specifically for the MCP ecosystem.
+* **IP Protection:** Choose between BYOK or zero-retention cloud.
 
-Matches the code against a live-updated DB of real-world production errors and business-flow disruptions.
+<br clear="right">
 
-3.  **Stress Tests:**
+## 🚀 How it Works
+<img align="right" width="450" height="750" 
+  src="https://github.com/user-attachments/assets/559ae811-58f4-4dba-b91b-856cdf02f430">
 
-Forces the agent to account for specific edge cases before the code is ever committed.
-      </p>
-      <ul>
-        <li>Real-time incident database</li>
-        <li>Privacy-focused architecture</li>
-        <li>Seamless agent integration</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <video src="https://github.com/user-attachments/assets/f10afac2-c57c-4b52-8d7d-8fc78946e00f" 
-             controls="controls" 
-             style="max-width: 100%;">
-      </video>
-    </td>
-  </tr>
-</table>
+Whenver your coding agent attempts to modify your codebase, <br>
+Puli:
+
+1.  **Analyzes the Context:**<br>
+Queries the agent to understand the intent of<br>
+the change.
+
+2.  **Cross-References Failures:**<br>
+Matches the code against a live-updated DB<br>
+of real-world production errors and business-flow<br>
+disruptions.
+
+4.  **Stress Tests:**<br>
+Forces the agent to account for specific edge<br>
+cases before the code is ever committed.<br><br>
+<img align="left" width="146" height="188" 
+  src="https://github.com/user-attachments/assets/0a73df13-60bb-453c-bd11-c8e929dd7a7d">
+
+
+<br clear="right">
 
 ---
 
