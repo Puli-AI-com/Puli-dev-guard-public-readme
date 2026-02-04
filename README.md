@@ -72,8 +72,6 @@ Add the following to your coding agent's configuration (e.g., `claude_desktop_co
 To ensure your agent utilizes the guardrail for every change, add our rules file to your project:
 
 * **For Cursor:** Create a file at `.cursor/rules/puli-reviewer.md` and paste the content from [our rules template here](https://drive.google.com/file/d/1e2qbVHWiT6zAE2VYYVbXrydT8iRz1HlH/view?usp=sharing).
-* **For other agents:** Ensure the agent is instructed to:
-    > "Consult Puli Reviewer before finalizing any file edits."
 
 ---
 
