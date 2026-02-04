@@ -1,24 +1,138 @@
-This is free and unencumbered software released into the public domain.
+PULI-AI INC. PROPRIETARY SOFTWARE LICENSE AGREEMENT
 
-Anyone is free to copy, modify, publish, use, compile, sell, or
-distribute this software, either in source code form or as a compiled
-binary, for any purpose, commercial or non-commercial, and by any
-means.
+Copyright (c) 2024-2025 Puli-AI Inc. All Rights Reserved.
 
-In jurisdictions that recognize copyright laws, the author or authors
-of this software dedicate any and all copyright interest in the
-software to the public domain. We make this dedication for the benefit
-of the public at large and to the detriment of our heirs and
-successors. We intend this dedication to be an overt act of
-relinquishment in perpetuity of all present and future rights to this
-software under copyright law.
+NOTICE: This software and its associated documentation files (the "Software")
+are the exclusive property of Puli-AI Inc. ("Company"). This license agreement
+("Agreement") governs your use of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
-OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
-OTHER DEALINGS IN THE SOFTWARE.
+1. GRANT OF LICENSE
 
-For more information, please refer to <https://unlicense.org>
+Subject to the terms of this Agreement and payment of applicable license fees,
+Company grants you a limited, non-exclusive, non-transferable, revocable license
+to use the Software solely for your internal business purposes and in accordance
+with the terms of your subscription or service agreement with Company.
+
+2. RESTRICTIONS
+
+You shall NOT, and shall not permit any third party to:
+
+a) Copy, reproduce, duplicate, or replicate the Software or any portion thereof,
+   except for reasonable backup purposes;
+
+b) Modify, adapt, alter, translate, or create derivative works based upon the
+   Software;
+
+c) Reverse engineer, disassemble, decompile, decode, or otherwise attempt to
+   derive or gain access to the source code of the Software;
+
+d) Sublicense, lease, rent, loan, sell, resell, distribute, or otherwise
+   transfer the Software or any rights therein to any third party;
+
+e) Remove, alter, or obscure any proprietary notices, labels, or marks on the
+   Software;
+
+f) Use the Software to provide services to third parties (including but not
+   limited to service bureau, time-sharing, or outsourcing services) without
+   prior written consent from Company;
+
+g) Use the Software in any manner that competes with Company's business or
+   products;
+
+h) Use the Software to develop a competing product or service;
+
+i) Share, publish, or disclose the Software, its features, functionality, or
+   any related technical information to any third party;
+
+j) Use the Software for any unlawful purpose or in violation of any applicable
+   laws or regulations;
+
+k) Benchmark, test, or evaluate the Software for the purpose of publishing
+   results or comparison with other products without prior written consent;
+
+l) Use the Software beyond the scope of your authorized license or subscription.
+
+3. INTELLECTUAL PROPERTY
+
+The Software, including all copies, modifications, enhancements, and derivative
+works, and all intellectual property rights therein, are and shall remain the
+exclusive property of Company. Nothing in this Agreement grants you any right,
+title, or interest in the Software except for the limited license expressly
+granted herein.
+
+4. CONFIDENTIALITY
+
+The Software contains trade secrets and proprietary information of Company. You
+agree to maintain the confidentiality of the Software using at least the same
+degree of care you use to protect your own confidential information, but in no
+event less than reasonable care. You shall not disclose the Software or any
+information derived therefrom to any third party without Company's prior written
+consent.
+
+5. NO WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, TITLE, AND NON-INFRINGEMENT. COMPANY DOES
+NOT WARRANT THAT THE SOFTWARE WILL MEET YOUR REQUIREMENTS, OPERATE WITHOUT
+INTERRUPTION, OR BE ERROR-FREE.
+
+6. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL COMPANY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES, INCLUDING BUT NOT LIMITED TO
+DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA, OR OTHER INTANGIBLE LOSSES,
+REGARDLESS OF WHETHER COMPANY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH
+DAMAGES. COMPANY'S TOTAL LIABILITY SHALL NOT EXCEED THE AMOUNTS PAID BY YOU
+FOR THE SOFTWARE IN THE TWELVE (12) MONTHS PRECEDING THE CLAIM.
+
+7. TERMINATION
+
+This license is effective until terminated. Company may terminate this license
+immediately upon written notice if you breach any term of this Agreement. Upon
+termination, you must immediately cease all use of the Software and destroy all
+copies in your possession or control.
+
+8. AUDIT RIGHTS
+
+Company reserves the right to audit your use of the Software to verify
+compliance with this Agreement. You agree to cooperate with any such audit and
+provide Company with reasonable access to your records and systems.
+
+9. GOVERNING LAW AND JURISDICTION
+
+This Agreement shall be governed by and construed in accordance with the laws
+of the State of Delaware, United States, without regard to its conflicts of law
+principles. Any dispute arising out of or relating to this Agreement shall be
+subject to the exclusive jurisdiction of the state and federal courts located
+in Delaware.
+
+10. EXPORT COMPLIANCE
+
+You shall comply with all applicable export laws and regulations in connection
+with your use of the Software.
+
+11. ENTIRE AGREEMENT
+
+This Agreement constitutes the entire agreement between you and Company
+regarding the Software and supersedes all prior agreements, understandings,
+and communications, whether written or oral.
+
+12. SEVERABILITY
+
+If any provision of this Agreement is held to be invalid or unenforceable,
+the remaining provisions shall continue in full force and effect.
+
+13. NO WAIVER
+
+The failure of Company to enforce any right or provision of this Agreement
+shall not constitute a waiver of such right or provision.
+
+14. CONTACT INFORMATION
+
+For licensing inquiries, please contact:
+Puli-AI Inc.
+legal@puli-ai.com
+
+BY USING THE SOFTWARE, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT,
+UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
