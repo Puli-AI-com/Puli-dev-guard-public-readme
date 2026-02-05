@@ -44,10 +44,9 @@ cases before the code is ever committed.<br><br>
 <img align="left" width="146" height="188" 
   src="https://github.com/user-attachments/assets/0a73df13-60bb-453c-bd11-c8e929dd7a7d">
 
-<br clear="right">
+<br clear="all" />
 
 ---
-
 
 <a id="install"></a>
 ## ⚙️ Installation & Setup
