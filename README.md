@@ -59,14 +59,18 @@ Add the following to your coding agent's configuration (e.g., `claude_desktop_co
   "mcpServers": {
     "puli-viewer": {
       "command": "uvx",
-      "args": ["--from", "puli-plg@latest", "puli-reviewer"],
+      "args": ["--from", "puli-mcp-server@latest", "puli-reviewer"],
       "env": {
-        "BYO_OPENAI_API_KEY": "<your-key-if-using-byok>"
+        "BYO_OPENAI_API_KEY": "Optional* - <your-key-if-using-byok>",
+        "BYO_GOOGLE_API_KEY": "Optional* - <your-key-if-using-byok>",
+        "BYO_ANTHROPIC_API_KEY": "Optional* - <your-key-if-using-byok>"
       }
     }
   }
 }
 ```
+
+* Provide at lease one API key
 
 ### 2. Add Agent Rules
 
@@ -77,9 +81,11 @@ To ensure your agent utilizes the guardrail for every change, add our rules file
 ---
 
 ## 🛡️ Privacy & Security
-We prioritize your IP security with two distinct working modes:
+We prioritize your IP security, Operations run locally on your station and no code is shared with our cloud.
 
-| Mode | How it Works | Data Privacy |
+We support two distinct working modes:
+
+| Mode | Data Privacy |
 | :--- | :--- | :--- |
-| **Bring Your Own Key** | Uses your own OpenAI/Anthropic API key. | **Local Only.** No code is shared with our cloud; only DB patterns are fetched. |
-| **Internal Key** | Uses Puli's managed API keys. | **Zero Retention.** Code passes through our infra for processing but is never logged or stored. |
+| When OpenAI API key provided. | **Local Only.** , We pass embedded vectors to be used for extracting DB patterns. |
+| When no OpenAI API key provided. | **Zero Retention.**, We embedd the contextual meanning of you code change in our cloud. Nothing is ever logged or stored. |
