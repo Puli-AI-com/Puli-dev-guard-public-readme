@@ -53,7 +53,10 @@ cases before the code is ever committed.<br><br>
 <a id="install"></a>
 ## ⚙️ Installation & Setup
 
-### 1. Configure the MCP Server
+### 1. Register to Puli
+Neviagte to www.puli-ai.com and complete the registretion flow, at the end of the flow an API key will be sent to your e-mail account
+
+### 2. Configure the MCP Server
 Add the following to your coding agent's configuration (e.g., `claude_desktop_config.json` or your IDE's MCP settings):
 
 ```json
@@ -63,6 +66,7 @@ Add the following to your coding agent's configuration (e.g., `claude_desktop_co
       "command": "uvx",
       "args": ["--from", "puli-mcp-server@latest", "puli-reviewer"],
       "env": {
+        "PULI_API_KEY": "Your personal API key that was send to your e-mail"
         "BYO_OPENAI_API_KEY": "Optional* - <your-key-if-using-byok>",
         "BYO_GOOGLE_API_KEY": "Optional* - <your-key-if-using-byok>",
         "BYO_ANTHROPIC_API_KEY": "Optional* - <your-key-if-using-byok>"
