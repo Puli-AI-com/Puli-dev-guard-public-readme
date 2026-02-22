@@ -53,8 +53,8 @@ cases before the code is ever committed.<br><br>
 <a id="install"></a>
 ## ⚙️ Installation & Setup
 
-### 1. Register to Puli
-Neviagte to www.puli-ai.com and complete the registretion flow, at the end of the flow an API key will be sent to your e-mail account
+### 1. Install dependencies
+Make sure that uvx is installed on your station
 
 ### 2. Configure the MCP Server
 Add the following to your coding agent's configuration (e.g., `claude_desktop_config.json` or your IDE's MCP settings):
@@ -89,3 +89,4 @@ To ensure your agent utilizes the guardrail for every change, add our rules file
 ## 🛡️ Privacy & Security
 We prioritize your IP security, Operations run locally on your station and no code is shared with our cloud.
 **Zero Retention.** We embedd the semantical meanning of your code change in our cloud. Nothing is ever logged or stored.
+We use vertex's LLM and embedding, You can provide your own GCP credentials (GOOGLE_CLOUD_PROJECT,GOOGLE_CLOUD_LOCATION) and in this case everything will run locally on your station apart from emebedded vectors needed to retreive data from our data bases.
