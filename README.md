@@ -81,8 +81,8 @@ Add the following to your coding agent's configuration (e.g., `claude_desktop_co
 
 To ensure your agent utilizes the guardrail for every change, add our rules file to your project:
 
-* **For Cursor:** Create a file at `.cursor/rules/puli-reviewer.mdc` and paste the content from [our rules template here](https://drive.google.com/file/d/1AO_tMy-LJEh9b3c-hHl2GCV3bShFnzb6/view?usp=drive_link).
-* **For Claude-code:** Create a file at `.claude/rules/puli-reviewer.md` and paste the content from [our rules template here](https://drive.google.com/file/d/1AO_tMy-LJEh9b3c-hHl2GCV3bShFnzb6/view?usp=sharing).
+* **For Cursor:** Create a file at `.cursor/rules/puli-reviewer.mdc` and paste the content from [our rules template here](https://drive.google.com/file/d/10mXrsaERDonnUIefV4GQ1hEXhJbZboZ6/view?usp=sharing).
+* **For Claude-code:** Create a file at `.claude/rules/puli-reviewer.md` and paste the content from [our rules template here](https://drive.google.com/file/d/10mXrsaERDonnUIefV4GQ1hEXhJbZboZ6/view?usp=sharing).
 
 ---
 
