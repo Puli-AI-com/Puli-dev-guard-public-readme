@@ -101,16 +101,22 @@ Add the following to your coding agent's configuration (e.g., `claude_desktop_co
 }
 ```
 
-* Provide at lease one API key or use our infrastructure
+* Provide at least one API key or use our infrastructure (requires [registrations](https://www.puli-ai.com))
 
-### 2. Add Agent Rules
+### 3. Add Agent Rules
 
 So your agent actually uses Puli on every change, add the rules file to your project:
 
-* **For Cursor:** Create a file at `.cursor/rules/puli-reviewer.mdc` and paste the content from [our rules template here](https://drive.google.com/file/d/10mXrsaERDonnUIefV4GQ1hEXhJbZboZ6/view?usp=sharing).
-* **For Claude-code:** Create a file at `.claude/rules/puli-reviewer.md` and paste the content from [our rules template here](https://drive.google.com/file/d/10mXrsaERDonnUIefV4GQ1hEXhJbZboZ6/view?usp=sharing).
+* **For Cursor:** Create a file at `.cursor/rules/puli-reviewer.mdc` and paste the content from [our Cursor rules template](./rules-templates/puli-reviewer.mdc).
+* **For Claude-code:** Create a file at `.claude/rules/puli-reviewer.md` and paste the content from [our Claude rules template](./rules-templates/puli-reviewer.md).
 
 That's it. Next time your agent writes code, Puli validates it against real-world failure patterns before it lands.
+
+### For OpenClaw Users:
+Simply run this command in your terminal to auto-configure:
+```bash
+openclaw mcp add --name "puli-viewer" --command "uvx" --args "--from,puli-mcp-server@latest,puli-reviewer" --env "BYO_OPENAI_API_KEY=your_key_here"
+```
 
 ## Examples:
 <p align="center">
@@ -126,9 +132,9 @@ That's it. Next time your agent writes code, Puli validates it against real-worl
 </p>
 
 ## 🛡️ Privacy & Security
-**We prioritize your IP security**! Operations run locally on your station. no code is shared with our cloud.<br>
-**Zero Retention.** We embedd the semantical meanning of your code change in our cloud. Nothing is ever logged or stored.<br>
-We use vertex's LLM and embedding, You can provide your own GCP credentials (set GOOGLE_CLOUD_PROJECT, GOOGLE_CLOUD_LOCATION env vars for the MCP server)
+**We prioritize your IP security**! Operations run locally on your station. **no code** is shared with our cloud.<br>
+**Zero Retention.** We embed the semantic meanning of your code change in our cloud. Nothing is ever logged or stored.<br>
+We use Vertex's LLM and embedding, You can provide your own GCP credentials (set GOOGLE_CLOUD_PROJECT, GOOGLE_CLOUD_LOCATION env vars for the MCP server)
 in this case **everything** will run locally on your station apart from the data layer query using emebedded vectors <br>
 
 ## Feedback
