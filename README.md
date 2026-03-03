@@ -4,6 +4,11 @@
   <img width="250" height="302" alt="Puli AI" src="https://github.com/user-attachments/assets/b1e21d97-35b2-4364-b62d-62d7f663c900" />
 </p>
 
+<p align="center">
+  <a href="https://www.puli-ai.com"><img src="https://img.shields.io/badge/🌍-Website-blue"></a>
+</p>
+
+
 # 🛡️ Puli Guardian MCP
 
 ### _**AI agents write code fast. Puli validates it against what actually matters.**_
